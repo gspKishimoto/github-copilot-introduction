@@ -1,6 +1,8 @@
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import QuestionnaireModal from "./components/organisms/questionnaireModal";
+import DisplayClock from "./components/organisms/displayClock";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <QuestionnaireModal />
+      <DisplayClock />
     </>
   );
 }

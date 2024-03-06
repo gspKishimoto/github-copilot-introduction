@@ -1,4 +1,4 @@
-const { require } = require("commonjs");
+const require = require("commonjs");
 const { getUsers } = require("./apiTest");
 const { describe, it, expect } = require("jest");
 
